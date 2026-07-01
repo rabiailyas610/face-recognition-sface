@@ -7,7 +7,6 @@
 
 A robust, offline‑capable face recognition system built with **OpenCV's SFace** deep learning model and a **Streamlit** web interface. It supports automatic enrolment from a folder hierarchy, manual registration, and real‑time identification with cosine similarity matching.
 
----
 
 ## Features
 
@@ -20,7 +19,6 @@ A robust, offline‑capable face recognition system built with **OpenCV's SFace*
 - **Offline Operation** – The model file (35 MB) is downloaded once and then runs completely offline.
 - **Adjustable Threshold** – Fine‑tune the matching strictness via the confidence slider (implemented internally with a cosine threshold of 0.4).
 
----
 
 ## Tech Stack
 
@@ -33,7 +31,6 @@ A robust, offline‑capable face recognition system built with **OpenCV's SFace*
 | Language           | Python 3.9+                         |
 | Key Libraries      | `opencv-contrib-python`, `numpy`, `urllib` |
 
----
 
 ## Quick Start
 
